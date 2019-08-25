@@ -28,6 +28,9 @@ target 'EnvProject' do
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
   pod 'react-native-config', :path => '../node_modules/react-native-config'
+  
+  pod 'Fabric'
+  pod 'Crashlytics'
 
   target 'EnvProjectTests' do
     inherit! :search_paths
